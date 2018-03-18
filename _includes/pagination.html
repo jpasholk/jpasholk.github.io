@@ -1,0 +1,14 @@
+<div class="pagination uk-text-center">
+  <br>
+  <ul class="uk-pagination">
+    {% if paginator.previous_page %}
+
+    <li><a href="{{ paginator.previous_page_path }}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li> {% else %}
+
+    <li><span class="uk-margin-small-right">First Page</span></li> {% endif %} {% if paginator.next_page %}
+
+    <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %} Next
+    <li><span class="uk-margin-small-left" uk-pagination-next></span></li> {% endif %}
+  </ul>
+  <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+</div>

@@ -1,0 +1,20 @@
+<header>
+  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-dark; top: 1460">
+
+    <nav class="uk-navbar-container uk-animation-slide-top-small" uk-navbar>
+      <div class="uk-navbar-left">
+        <a href="{{"/" | relative_url}}" class="uk-navbar-item uk-logo">{{site.title}}</a>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="{{"/#About" | relative_url}}" uk-scroll>About</a></li>
+          <li>
+            <a href="{{ "/#Projects" | relative_url }}" uk-scroll>Projects</a></li>
+            <li>
+              <a href="{{ "/#Blog" | relative_url }}" uk-scroll>Blog</a></li>
+        </ul>
+      </div>
+      </ul>
+    </nav>
+  </div>
+</header>
