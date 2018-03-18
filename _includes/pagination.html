@@ -7,8 +7,9 @@
 
     <li><span class="uk-margin-small-right">First Page</span></li> {% endif %} {% if paginator.next_page %}
 
-    <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %} Next
-    <li><span class="uk-margin-small-left" uk-pagination-next></span></li> {% endif %}
+    <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %}
+
+    <li class="uk-margin-auto-left"><span class="uk-margin-small-left">Last Page</span></li> {% endif %}
   </ul>
   <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 </div>
