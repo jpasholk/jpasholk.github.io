@@ -1,13 +1,3 @@
-/*
-.uk-navbar-container:not(.uk-navbar-transparent) {
-  background-color: #414347;
-}
-
-.uk-logo, .uk-navbar-nav>li>a {
-  color: #FFF;
-}
-*/
-
 .intro-text {
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 1px 1px 2px black;
 }
