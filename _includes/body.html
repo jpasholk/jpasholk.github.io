@@ -67,7 +67,7 @@
     </div>
 
     <div id="Contact" class="uk-section uk-section-secondary">
-      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-container">
+      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500; repeat: true" class="uk-container">
 
         <h2 class="uk-heading-line"><span>Contact</span></h2>
 
@@ -107,7 +107,7 @@
         <h2 class="uk-heading-line"><span>Latest Blog Posts</span></h2>
 
         <article class="uk-article">
-          <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 400">
+          <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
             {% for post in paginator.posts %}
             <h4><a class="uk-link-text"href="{{ post.url }}">{{ post.title }}</a></h4>
             <p class="uk-article-meta">

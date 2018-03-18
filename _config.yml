@@ -24,6 +24,8 @@ url: "https://jpasholk.com" # the base hostname & protocol for your site, e.g. h
 
 google_analytics: "UA-108080968-2"
 disqus: "jpasholk"
+twitter: "jpasholk"
+github: "jpasholk"
 
 permalink: pretty
 paginate_path: "/blog/page:num/"
