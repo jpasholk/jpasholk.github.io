@@ -22,7 +22,7 @@
     <div id="Projects" class="uk-section uk-section-muted">
       <div class="uk-container">
 
-        <h2>Current Projects</h2>
+        <h2 class="uk-heading-line"><span>Current Projects</span></h2>
 
         <div class="uk-grid-match uk-child-width-1-3@m uk-flex" uk-grid>
 
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="uk-flex">
-              <a class="uk-button uk-button-default uk-border-rounded uk-border-rounded" href="https://codepen.io/jpasholk/full/BJQpMY/" target="_blank">Link</a>
+              <a class="uk-button uk-button-default uk-border-rounded" href="https://codepen.io/jpasholk/full/BJQpMY/" target="_blank">Link</a>
             </div>
           </div>
 
@@ -67,9 +67,9 @@
     </div>
 
     <div id="Contact" class="uk-section uk-section-secondary">
-      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 600; repeat: true" class="uk-container">
+      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-container">
 
-        <h3>Contact</h3>
+        <h2 class="uk-heading-line"><span>Contact</span></h2>
 
         <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
 
@@ -104,11 +104,12 @@
     <div id="Blog" class="uk-section uk-section-default">
       <div class="uk-container">
 
-        <h2>Latest Blog Posts</h2>
+        <h2 class="uk-heading-line"><span>Latest Blog Posts</span></h2>
+
         <article class="uk-article">
-          <div uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 400">
             {% for post in paginator.posts %}
-            <h4 class="uk-article-title"><a class="uk-link-text"href="{{ post.url }}">{{ post.title }}</a></h4>
+            <h4><a class="uk-link-text"href="{{ post.url }}">{{ post.title }}</a></h4>
             <p class="uk-article-meta">
               <span class="date">{{ post.date | date_to_string }}</span>
             </p>
