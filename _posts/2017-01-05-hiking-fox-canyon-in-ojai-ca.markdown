@@ -3,7 +3,7 @@ layout: post
 title: "Hiking Fox Canyon In Ojai, Ca"
 date: "2017-01-05 08:17:41 -0800"
 tags: [hiking, ojai]
-bigimg: /img/about-me-background.jpg
+bigimg: /img/backpack.jpg
 ---
 
 ## Fox Canyon Trail in Ojai, California
