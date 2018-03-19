@@ -108,7 +108,7 @@
               <span class="date">{{ post.date | date_to_string }}</span>
             </p>
             <div class="content">
-              {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}
+              {{ post.excerpt | strip_html }}
               <br><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
             </div>
             {% endfor %}

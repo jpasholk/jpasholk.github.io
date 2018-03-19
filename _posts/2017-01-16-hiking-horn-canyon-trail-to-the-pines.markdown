@@ -10,6 +10,8 @@ bigimg: /img/posts/Horn-Canyon-Trail-Hike.jpg
 
 There’s nothing quite like a hike up Horn Canyon in Ojai, California. You have to weave through Thatcher School to find the trailhead, but it’s not hard just stay to the right.
 
+<!--more-->
+
 Accessible behind Thatcher school in Ojai California, Horn Canyon Trail is a really nice moderate hike in the east end of the valley.
 
 It starts out with a gradual increase in slope and difficulty, but eventually becomes an incredibly difficult hike later on.

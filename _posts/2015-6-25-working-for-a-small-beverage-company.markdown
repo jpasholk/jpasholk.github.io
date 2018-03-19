@@ -10,6 +10,8 @@ bigimg: /img/posts/loris-lemonade-booth.jpg
 
 I started working for Lori's Original Lemonade around September of 2013.
 
+<!--more-->
+
 From my [about page](/aboutme/):
 
 > Working in produce is when I met Lori, of Lori’s Original Lemonade

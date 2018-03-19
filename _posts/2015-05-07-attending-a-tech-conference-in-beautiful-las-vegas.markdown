@@ -12,6 +12,8 @@ bigimg: /img/posts/collision-conference.jpg
 
 At the airport, I remember being anxious to get the flight over with. This was actually my first time flying, ever.
 
+<!--more-->
+
 It wasn't so bad, but I was nervous at first I will admit.
 
 

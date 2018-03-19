@@ -10,6 +10,8 @@ bigimg: /img/posts/Gridley-Springs-Camp.jpg
 
 This is a very nice hiking trail that is very popular among the locals of Ojai California. With a nice gradual slope up the canyon, you have a chance to warm up before it gets steep.
 
+<!--more-->
+
 Gridley trail meets up with several other trails and eventually will take you up to the ranger tower on Nordhoff Peak.
 
 ### Gridley Trail Entrance

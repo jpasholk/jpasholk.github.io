@@ -10,6 +10,8 @@ bigimg: /img/alaska-glacier-1.jpg
 
 After being back in my home town for a while following my Montana trip, I was still looking for my next move. While I was picking up work here and there, it wasn't enough to save anything and get ahead.
 
+<!--more-->
+
 I was beginning to think Southern California wasn't for me anymore.
 
 That is around the time a friend of mine gave me a call from Alaska. He had left for a job in Healy around when I left for Montana. It turns out that someone was leaving the job early for personal reasons and they needed to fill the position asap.

@@ -9,6 +9,8 @@ taqs: [webdev]
 
 In [this](https://www.freecodecamp.org/challenges/build-a-tribute-page) freeCodeCamp challenge I needed to make a project that was a tribute page to someone.
 
+<!--more-->
+
 I had learned about Ignaz Semmelweis a while ago so he sprung to mind. It was a pleasure to code this site.
 
 It is made with the [Spectre.css](https://picturepan2.github.io/spectre/) framework and the [InterUI](https://rsms.me/inter/) Font family.

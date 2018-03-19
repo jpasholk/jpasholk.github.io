@@ -30,7 +30,7 @@ github: "jpasholk"
 permalink: pretty
 paginate_path: "/blog/page:num/"
 paginate: 3
-excerpt_length: 100
+excerpt_separator: "<!--more-->"
 
 # Build settings
 markdown: kramdown

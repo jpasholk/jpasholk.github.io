@@ -10,6 +10,8 @@ bigimg: /img/hobbit-house-in-montana.jpg
 
 How did I find myself living in a Hobbit-style house on a remote homestead in Montana?
 
+<!--more-->
+
 Permaculture.
 
 WTF is that?
