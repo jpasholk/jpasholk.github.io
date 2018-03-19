@@ -2,13 +2,9 @@
   <br>
   <ul class="uk-pagination">
     {% if paginator.previous_page %}
-
     <li><a href="{{ paginator.previous_page_path }}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li> {% else %}
-
     <li><span uk-icon="home" class="uk-margin-small-right"></span></li> First Page {% endif %} {% if paginator.next_page %}
-
     <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %}
-
     <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter" class="uk-margin-small-left">Follow me </span></a></li> {% endif %}
   </ul>
   <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
