@@ -5,7 +5,7 @@ layout: default
 <div class="uk-container-expand uk-animation-slide-top-small">
 
   <div id="blog" class="uk-section-default ">
-    <div class="uk-section-large uk-light uk-background-fixed" style="background-image: url(/img/backpack.jpg)">
+    <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-bottom-center" style="background-image: url(/img/backpack.jpg)">
       <div class="intro-text uk-container">
 
         <h2 class="uk-heading-primary">Welcome to my blog</h2>
@@ -14,24 +14,12 @@ layout: default
     </div>
   </div>
 
-  <div class="uk-section uk-container">
+  <div class="uk-section uk-container uk-padding-large">
     <article class="uk-article">
       {{content}}
     </article>
     <div>
-      <br>
-      <ul class="uk-pagination">
-        {% if page.previous.url %}
-        <li>
-          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous Post</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="uk-margin-auto-left">
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post <span class="uk-margin-small-left" uk-pagination-next></span></a>
-        </li>
-        {% endif %}
-      </ul>
+      {% include post-pagination.html %}
     </div>
     {% include disqus.html %}
   </div>

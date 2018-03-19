@@ -1,0 +1,16 @@
+<br>
+<ul class="uk-pagination">
+  {% if page.previous.url %}
+  <li>
+    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous Post</a>
+  </li>
+  {% endif %}
+  {% if page.next.url %}
+  <li class="uk-margin-auto-left">
+    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post <span class="uk-margin-small-left" uk-pagination-next></span></a>
+    {% else %}
+    <li class="uk-margin-auto-left">
+      <a href="https://twitter.com/{{site.twitter}}" target="_blank">Follow me<span uk-icon="twitter" class="uk-margin-small-left"></span></a>
+  </li>
+  {% endif %}
+</ul>
