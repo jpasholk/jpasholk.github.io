@@ -26,6 +26,7 @@ google_analytics: "UA-108080968-2"
 disqus: "jpasholk"
 twitter: "jpasholk"
 github: "jpasholk"
+buymeacoffee: "jpasholk"
 
 permalink: pretty
 paginate_path: "/blog/page:num/"
