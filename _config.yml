@@ -30,7 +30,7 @@ buymeacoffee: "jpasholk"
 
 permalink: pretty
 paginate_path: "/blog/page:num/"
-paginate: 3
+paginate: 5
 excerpt_separator: "<!--more-->"
 
 # Build settings

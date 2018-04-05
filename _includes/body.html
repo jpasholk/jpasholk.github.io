@@ -14,7 +14,7 @@
             </div>
           </div>
           <br>
-          <a class="uk-button uk-button-default uk-border-rounded" href="{{"/aboutme" | relative_url }}">Read more</a>
+          <a class="uk-button uk-button-default uk-border-rounded" href="{{"/about" | relative_url }}">Read more</a>
 
         </div>
       </div>
@@ -89,33 +89,6 @@
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div id="Blog" class="uk-section uk-section-default">
-      <div class="uk-container">
-        <h2 class="uk-heading-line"><span>Latest Blog Posts</span></h2>
-
-        <article class="uk-article">
-          <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
-            {% for post in paginator.posts %}
-            <h4><a class="uk-link-text"href="{{ post.url }}">{{ post.title }}</a></h4>
-            <p class="uk-article-meta">
-              <span class="date">{{ post.date | date_to_string }}</span>
-            </p>
-            <div class="content">
-              {{ post.excerpt | strip_html }}
-              <br><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-            </div>
-            {% endfor %}
-          </div>
-        </article>
-
-        <div>
-          {% include pagination.html %}
-        </div>
-        <br>
-        {% include buymeacoffee.html %}
       </div>
     </div>
   </div>

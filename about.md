@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: about
 title: Hello, Internet! ;P
-subtitle: Why you'd probably <strong>not</strong> want to go on a date with me
-bigimg: /img/about-me-background.jpg
 ---
 
 My name is Josh Pasholk. I grew up in a small Southern California town about 20 minutes from the beach, surrounded by beautiful mountains. When I was still a kid, I had the chance to explore the world around me without the distraction of the tech world.
 
-I live in Southern Oregon after checking out a few different states for a couple of years. Living on a remote Montana homestead for a few months, then spending some time in Alaska I settled in Northern California, just above the Bay Area for a little while.
+I live in Southern Oregon. After a divorce I spent some time living on a remote Montana homestead for a few months, after that I checked out Alaska for a while. When I got back to the lower forty eight I settled in Northern California, just above the Bay Area for a little while where I worked on a small organic farm.
 
 From there Oregon was looking nice, now I am home.
 
@@ -158,3 +156,5 @@ The offer from a friend who lived in Oregon started to come to mind. It wasn't l
 -->
 
 # Thanks for reading!
+
+{% include buymeacoffee.html %}
