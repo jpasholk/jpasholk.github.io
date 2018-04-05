@@ -12,7 +12,7 @@ bigimg: /img/about-me-background.jpg
         {% for post in paginator.posts %}
         <h4><a class="uk-link-text"href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         <p class="uk-article-meta">
-          <span class="date">{{ post.date | date_to_string }}</span>
+          <span uk-icon="calendar"></span> <span class="date">{{ post.date | date_to_string }}</span>
         </p>
         <div class="content">
           {{ post.excerpt | strip_html }}
