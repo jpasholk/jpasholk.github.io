@@ -1,6 +1,7 @@
 ---
-layout: about
-title: Hello, Internet! ;P
+layout: page
+title: My Story
+bigimg: /img/howard-prairie.jpg
 ---
 
 My name is Josh Pasholk. I grew up in a small Southern California town about 20 minutes from the beach, surrounded by beautiful mountains. When I was still a kid, I had the chance to explore the world around me without the distraction of the tech world.

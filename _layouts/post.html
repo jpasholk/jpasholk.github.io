@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="uk-container-expand uk-animation-slide-top-small">
-  <div class="uk-section-default">
+  <div id="blog" class="uk-section-default">
     {% if page.bigimg %}
-    <div class="uk-section uk-light uk-background-fixed uk-background-cover uk-background-bottom-center" style="background-image: url({{ page.bigimg | relative_url }})">
+    <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-bottom-center" style="background-image: url({{ page.bigimg | relative_url }})">
       <div class="intro-text uk-container uk-padding-large">
         <h2 class="uk-heading-primary">{{page.title}}</h2>
         <p class="uk-article-meta">
