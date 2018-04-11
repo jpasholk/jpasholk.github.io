@@ -14,20 +14,20 @@ From there Oregon was looking nice, now I am home.
 
 # Table of contents
 
-* [Hello, internet!](/aboutme/#hello-internet)
-* [About Me](/aboutme/#about-me)
-  * [Not quite a millennial](/aboutme/#not-quite-a-millennial)
-  * [From the organic produce world](/aboutme/#from-the-organic-produce-world)
-  * [To watching a small corporation grow](/aboutme/#to-watching-a-small-corporation-grow)
-  * [When life gives you lemons](/aboutme/#when-life-gives-you-lemons)
-  * [You pull yourself up by your bootstraps](/aboutme/#you-pull-yourself-up-by-your-bootstraps)
-  * [And head north, to Alaska](/aboutme/#and-head-north-to-alaska)
-  * [Find yourself and realize that Alaska is far away](#find-yourself-and-realize-that-alaska-is-far-away)
-  * [Home not so sweet home](#home-not-so-sweet-home)
-  <!--* [Production Assistant, Content Writer, Web Design Student](#production-assistant-content-writer-web-design-student)-->
-* [Skills](/aboutme/#skills)
-* [Hobbies](/aboutme/#hobbies)
-
+* [Hello, internet!](/about/#hello-internet)
+* [About Me](/about/#about)
+  * [Not quite a millennial](/about/#not-quite-a-millennial)
+  * [From the organic produce world](/about/#from-the-organic-produce-world)
+  * [To watching a small corporation grow](/about/#to-watching-a-small-corporation-grow)
+  * [When life gives you lemons](/about/#when-life-gives-you-lemons)
+  * [You pull yourself up by your bootstraps](/about/#you-pull-yourself-up-by-your-bootstraps)
+  * [And head north, to Alaska](/about/#and-head-north-to-alaska)
+  * [Find yourself and realize that Alaska is far away](/about/#find-yourself-and-realize-that-alaska-is-far-away)
+  * [Home not so sweet home](/about/#home-not-so-sweet-home)
+  <!--* [Production Assistant, Content Writer, Web Design Student](#production-assistant-content-writer-web-design-student)
+* [Skills](/about/#skills)
+* [Hobbies](/about/#hobbies)
+  -->
 *****
 
 # About Me
