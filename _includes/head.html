@@ -19,6 +19,7 @@
   <meta http-equiv="x-dns-prefetch-control" content="on">
 
   <!-- Facebook Open Graph -->
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">

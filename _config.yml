@@ -25,6 +25,7 @@ url: "https://jpasholk.com" # the base hostname & protocol for your site, e.g. h
 lang: en
 locale: en_US
 avatar: "/img/avatar-icon.png"
+fb_app_id: "1853559471361089"
 
 google_analytics: "UA-108080968-2"
 disqus: "jpasholk"
