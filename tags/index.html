@@ -9,8 +9,8 @@ title: Post Archives
     {% assign sortedTags = site_tags | split:',' | sort %}
 
   <article class="uk-article">
+    {% for tag in sortedTags %}
     <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
-      {% for tag in sortedTags %}
       <h3 id="{{tag | cgi_escape}}" class="uk-heading-line tag-name"><span>{{tag}}</span></h3>
         <ul class="uk-list tag-list">
         {% for post in site.tags[tag] %}
@@ -19,8 +19,8 @@ title: Post Archives
           </li>
         {% endfor %}
         </ul>
-        {% endfor %}
       </div>
+    {% endfor %}
     </article>
     <br>
     {% include buymeacoffee.html %}
