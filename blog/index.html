@@ -13,7 +13,7 @@ bigimg: /img/backpack.jpg
       <h4><a class="uk-link-text"href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 
       <p class="uk-article-meta">
-        <span uk-icon="calendar"></span> <span class="date">{{ post.date | date_to_string }}    </span>
+        <span uk-icon="calendar"></span> <span class="date">{{post.date | date: "%b %d, %Y "}} </span>
         <span uk-icon="tag"></span>
 
         {% for tag in post.tags %}
