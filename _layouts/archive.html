@@ -15,7 +15,7 @@ layout: default
 
             {% for tag in sortedTags %}
             <span class="tags">
-              <a href="#{{tag | cgi_escape}}">{{ tag }} [{{ site.tags[tag].size }}]</a>
+              <a href="#{{tag | cgi_escape}}" uk-scroll>{{ tag }} [{{ site.tags[tag].size }}]</a>
               {% unless forloop.last %}, {% endunless %}
             </span>
             {% endfor %}
@@ -33,7 +33,7 @@ layout: default
           <span uk-icon="tag"></span>
             {% for tag in sortedTags %}
             <span class="tags">
-              <a href="#{{tag | cgi_escape}}">{{ tag }} [{{ site.tags[tag].size }}]</a>
+              <a href="#{{tag | cgi_escape}}" uk-scroll>{{ tag }} [{{ site.tags[tag].size }}]</a>
               {% unless forloop.last %} | {% endunless %}
             </span>
             {% endfor %}
