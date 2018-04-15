@@ -32,6 +32,7 @@ permalink: pretty
 paginate_path: "/blog/page:num/"
 paginate: 5
 excerpt_separator: "<!--more-->"
+to_top: true
 
 # Build settings
 markdown: kramdown

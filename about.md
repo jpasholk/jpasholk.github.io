@@ -24,7 +24,7 @@ From there Oregon was looking nice, now I am home.
   * [And head north, to Alaska](/about/#and-head-north-to-alaska)
   * [Find yourself and realize that Alaska is far away](/about/#find-yourself-and-realize-that-alaska-is-far-away)
   * [Home not so sweet home](/about/#home-not-so-sweet-home)
-  
+
 *****
 
 # About Me
@@ -154,5 +154,3 @@ The offer from a friend who lived in Oregon started to come to mind. It wasn't l
 -->
 
 # Thanks for reading!
-
-{% include buymeacoffee.html %}
