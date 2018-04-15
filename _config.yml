@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jpasholk.com" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 locale: en_US
+avatar: /img/avatar-icon.png
 
 google_analytics: "UA-108080968-2"
 disqus: "jpasholk"
