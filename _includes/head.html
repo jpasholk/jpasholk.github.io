@@ -35,7 +35,7 @@
   <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg }}{% else %}{{ site.avatar | relative_url }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | relative_url }}{% else %}{{ "/img/alaska-glacier-1.jpg" | relative_url }}{% endif %}">
   <meta name="twitter:dnt" content="on">
 
   <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
