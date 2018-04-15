@@ -2,7 +2,7 @@
 layout: post
 title: "Hiking to Gridley Springs Camp, above Ojai California"
 date: "2017-01-09 10:11:17 -0800"
-Tags: [hiking, ojai]
+tags: [hiking, ojai]
 bigimg: /img/posts/Gridley-Springs-Camp.jpg
 ---
 
