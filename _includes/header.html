@@ -47,16 +47,24 @@
         <li>
           <a href="" uk-icon="icon: menu"></a>
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
-            <ul class="uk-nav uk-navbar-dropdown-nav">
+            <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right">
               {% for link in site.data.navigation.mobile %}
-              {% if link.url contains "http" %}
-                {% assign url = link.url %}
-              {% else %}
-                {% assign url = link.url | relative_url %}
-              {% endif %}
-                <li class="uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>
+                {% if link.url contains "http" %}
+                  {% assign url = link.url %}
+                  {% else %}
+                  {% assign url = link.url | relative_url %}
+                {% endif %}
+                {% if forloop.first %}
+                  <li class="uk-nav-header"><a class="uk-text-left" href="{{"/" | relative_url}}" uk-icon="icon: home"></a><a href="{{ url }}">{{ link.title }}</a></li><hr>
+                  {% else %}
+                  <li class="uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
+                {% endif %}
               {% endfor %}
             </ul>
+            <footer>
+              <span><a href="https://twitter.com/{{site.twitter}}" class="uk-icon-button" uk-icon="twitter" target="_blank"></a></span>
+              <a href="https://github.com/{{site.github}}" class="uk-icon-button" uk-icon="github" target="_blank"></a></span>
+            </footer>
           </div>
         </li>
       </ul>
