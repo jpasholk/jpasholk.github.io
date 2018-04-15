@@ -29,13 +29,13 @@
   <meta property="article:author" content="{{ site.author }}">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ site.twitter }}">
   <meta name="twitter:creator" content="@{{ site.twitter }}">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | relative_url }}{% else %}{{ site.url }}{{ "/img/alaska-glacier-1.jpg" }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.bigimg %}{{ site.url }}{{ page.bigimg }}{% else %}{{ site.url }}{{ "/img/alaska-glacier-1.jpg" }}{% endif %}">
   <meta name="twitter:dnt" content="on">
 
   <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
