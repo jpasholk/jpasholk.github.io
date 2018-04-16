@@ -6,6 +6,9 @@
 
     <div class="uk-navbar-right uk-visible@s">
       <ul class="uk-navbar-nav">
+
+        {% include search_box.html %}
+
         {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
           {% assign url = link.url %}
@@ -36,6 +39,7 @@
           </div>
         </li>
         {% endfor %}
+
       </ul>
     </div>
 
@@ -52,17 +56,14 @@
                   {% assign url = link.url | relative_url %}
                 {% endif %}
                 {% if forloop.first %}
-                  <li class="uk-nav-header"><a class="uk-text-left" href="{{"/" | relative_url}}" uk-icon="icon: home"></a><a href="{{ url }}">{{ link.title }}</a></li><hr>
+                  <li class="uk-nav-header"><a class="uk-text-left" href="{{ "/feed.xml" | relative_url }}" class="uk-icon-button" uk-icon="rss" target="_blank"></a><a href="{{ url }}">{{ link.title }}</a></li><hr>
                   {% else %}
                   <li class="uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
                 {% endif %}
               {% endfor %}
             </ul>
             <footer>
-              <span><a href="https://twitter.com/{{site.twitter}}" class="uk-icon-button" uk-icon="twitter" target="_blank"></a></span>
-              <a href="https://github.com/{{site.github}}" class="uk-icon-button" uk-icon="github" target="_blank"></a>
-              <a href="{{ "/feed.xml" | relative_url }}" class="uk-icon-button" uk-icon="rss" target="_blank"></a>
-            </span>
+              {% include search_box.html %}
             </footer>
           </div>
         </li>
