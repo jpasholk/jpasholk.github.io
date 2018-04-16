@@ -1,15 +1,16 @@
 <div class="uk-navbar-item">
-  <a class="uk-button uk-button-default uk-border-rounded" href="#modal-overflow" uk-toggle>Search</a>
+  <span class="uk-visible@s uk-flex uk-flex-left">
+    <a class="uk-icon-button" uk-icon="icon: search" href="#modal-overflow" uk-toggle></a>
+  </span>
+  <a class="uk-icon-button uk-hidden@s uk-text-left" uk-icon="icon: search" href="#modal-overflow" uk-toggle></a>
     <div id="modal-overflow" uk-modal>
         <div class="uk-modal-dialog uk-border-rounded">
 
             <button class="uk-modal-close-default" type="button" uk-close></button>
 
             <div class="uk-modal-header">
-              <div class="uk-margin">
-                <form class="uk-search-navbar">
-                  <input id="search-searchbar" class="uk-border-rounded" type="search">
-                </form>
+              <div id="search-searchbar" class="uk-margin uk-padding uk-padding-remove-top uk-padding-remove-bottom">
+
               </div>
             </div>
 
