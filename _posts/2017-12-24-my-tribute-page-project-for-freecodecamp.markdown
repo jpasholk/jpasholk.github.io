@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Tribute Page Project for freeCodeCamp"
-date: "2017-12-24 16:15:50 -0800"
+date: "2017-12-24"
 tags: [webdev]
 ---
 
