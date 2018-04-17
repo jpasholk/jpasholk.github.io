@@ -6,11 +6,11 @@ tags: [travel]
 bigimg: /img/alaska-glacier-1.jpg
 ---
 
-## Why Alaska?
-
 After being back in my home town for a while following my Montana trip, I was still looking for my next move. While I was picking up work here and there, it wasn't enough to save anything and get ahead.
 
 <!--more-->
+
+## Why Alaska?
 
 I was beginning to think Southern California wasn't for me anymore.
 

@@ -45,11 +45,11 @@
 
     <div class="uk-navbar-right uk-hidden@s">
       <ul class="uk-navbar-nav">
+        <li>{% include search_box.html %}</li>
         <li>
           <a href="" uk-icon="icon: menu"></a>
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
             <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-fade; delay: 300; repeat: true">
-              {% include search_box.html %}
               {% for link in site.data.navigation.mobile %}
                 {% if link.url contains "http" %}
                   {% assign url = link.url %}
@@ -59,12 +59,6 @@
                   <li class="uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
               {% endfor %}
             </ul>
-            <footer>
-              <br>
-              <div class="uk-flex uk-flex-center">
-                <a class="uk-icon-button uk-text-center" href="{{ "/feed.xml" | relative_url }}" uk-icon="rss" target="_blank"></a>
-              </div>
-            </footer>
           </div>
         </li>
       </ul>

@@ -1,10 +1,7 @@
 <div class="uk-navbar-item">
-  <span class="uk-visible@s uk-flex uk-flex-left">
-    <a class="uk-icon-button" uk-icon="icon: search" href="#modal-overflow" uk-toggle></a>
-  </span>
-  <a class="uk-icon-button uk-hidden@s uk-text-left" uk-icon="icon: search" href="#modal-overflow" uk-toggle></a>
-    <div id="modal-overflow" uk-modal>
-        <div class="uk-modal-dialog uk-border-rounded">
+  <a class="uk-icon-button" uk-icon="icon: search" href="#modal-full" uk-toggle></a>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
 
             <button class="uk-modal-close-default" type="button" uk-close></button>
 
@@ -19,6 +16,7 @@
               <div id="search-hits" class="uk-section uk-padding-remove-top post-list">
 
                 <h2 class="uk-heading-line"><span>Search is in beta</span></h2>
+
                 <article class="uk-article uk-padding-large uk-padding-remove-left">
                   {% for post in site.posts %}
                   <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
@@ -45,7 +43,7 @@
               </div>
 
             </div>
-
+            {% include algolia.html %}
         </div>
     </div>
 </div>

@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
 
 <script>
+
 // Instanciating InstantSearch.js with Algolia credentials
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
@@ -32,12 +33,14 @@ const hitTemplate = function(hit) {
   const content = hit._highlightResult.html.value;
 
   return `
-    <div class="post-item uk-section">
-      <span class="uk-article-meta">${date}</span>
-      <h2 class="uk-heading-line"><a class="post-link" href="${url}">${title}</a></h2>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+  <div class="post-item">
+    <h2 class="uk-heading-line post-link""><a class="uk-link-text" href="${url}">${title}</a></h2>
+    <span uk-icon="calendar"></span> <span class="uk-article-meta">${date}</span><br>
+    {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}<br>
+    <div class="content">
       <div class="post-snippet">${content}</div>
     </div>
+  </div>
   `;
 }
 
@@ -71,6 +74,7 @@ search.start();
   margin-bottom: 30px;
 }
 .post-link .ais-Highlight {
+  color: #1e87f0;
   font-style: normal;
   text-decoration: underline;
 }
@@ -87,7 +91,7 @@ search.start();
   font-style: normal;
 }
 .post-snippet .ais-Highlight {
-  color: #2a7ae2;
+  color: #1e87f0;
   font-style: normal;
   font-weight: bold;
 }

@@ -6,11 +6,10 @@ tags: [homestead]
 bigimg: /img/hobbit-house-in-montana.jpg
 ---
 
-### Why Montana?
-
 How did I find myself living in a Hobbit-style house on a remote homestead in Montana?
 
 <!--more-->
+### Why Montana?
 
 Permaculture.
 

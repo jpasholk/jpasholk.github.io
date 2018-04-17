@@ -6,11 +6,11 @@ tags: [work]
 bigimg: /img/posts/loris-lemonade-booth.jpg
 ---
 
-## Lori's Original Lemonade 'LOL' was a really amazing place to work
-
 I started working for Lori's Original Lemonade around September of 2013.
 
 <!--more-->
+## Lori's Original Lemonade 'LOL' was a really amazing place to work
+
 
 From my [about page](/aboutme/):
 

@@ -6,11 +6,12 @@ tags: [hiking, ojai]
 bigimg: /img/backpack.jpg
 ---
 
-## Fox Canyon Trail in Ojai, California
-
 A great little hike that forks off of Shelf Road (Valley View Trail). Its a little bit under 2 miles and a little steep at times with quite a few switchbacks.
 
 <!--more-->
+
+## Fox Canyon Trail in Ojai, California
+
 
 Overall it’s a hike that will make you sweat but shouldn’t take all day. You should still pack your hiking hat.
 

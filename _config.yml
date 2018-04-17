@@ -38,7 +38,7 @@ algolia:
   application_id: KMHLT5L375
   index_name: jpasholk
   search_only_api_key: f8ec0afe2cdf243fd346b125550d9037
-  nodes_to_index: 'h1,h2,h3,h4,h5,h6,p,blockquote,li,div.paragraph'
+  
 
 permalink: pretty
 paginate_path: "/blog/page:num/"

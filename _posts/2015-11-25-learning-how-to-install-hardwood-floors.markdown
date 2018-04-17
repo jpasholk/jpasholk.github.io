@@ -6,11 +6,11 @@ tags: [work, trade-skills]
 bigimg: /img/posts/hardwood-floor-header.jpg
 ---
 
-## Learning hardwood floor installation from my buddy Russell
-
 After bringing Russell on at OHI Home, we began to take on extra side work from Lila. At first it was small stuff like fixing this or that, but eventually she started getting flooring work.
 
 <!--more-->
+
+## Learning hardwood floor installation from my buddy Russell
 
 This was great as it provided Russell and I with some extra income and I was able to learn a new trade.
 

@@ -6,11 +6,10 @@ tags: [work]
 bigimg: /img/posts/ojai-home-staging.jpg
 ---
 
-## Working for a staging company was one of the coolest experiences of my life
-
 Before I met Lila and Dines, the owners of Ojai Home, I had no idea what home staging was. I didn't know what I was missing out on.
 
 <!--more-->
+## Working for a staging company was one of the coolest experiences of my life
 
 Working for them, I learned a lot about the intangible concepts of design. Especially how a design should make someone happy.
 

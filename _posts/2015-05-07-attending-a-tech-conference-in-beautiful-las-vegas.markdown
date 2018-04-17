@@ -6,13 +6,13 @@ tags: [travel, writing]
 bigimg: /img/posts/collision-conference.jpg
 ---
 
-## I had the opportunity to attend a tech conference
-
 ![Las Vegas Ticket](https://imgur.com/mhlJVfg.jpg)
 
 At the airport, I remember being anxious to get the flight over with. This was actually my first time flying, ever.
 
 <!--more-->
+
+## I had the opportunity to attend a tech conference
 
 It wasn't so bad, but I was nervous at first I will admit.
 
