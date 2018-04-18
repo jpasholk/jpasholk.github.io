@@ -25,28 +25,27 @@ url: "https://jpasholk.com" # the base hostname & protocol for your site, e.g. h
 lang: en
 locale: en_US
 avatar: "/img/avatar-icon.png"
-fb_app_id: "1853559471361089"
 
-google_analytics: "UA-108080968-2"
+# Socials
 disqus: "jpasholk"
 twitter: "jpasholk"
 github: "jpasholk"
 buymeacoffee: "jpasholk"
 
-
+fb_app_id: "1853559471361089" # This is needed for FB Cards to work.
+google_analytics: "UA-108080968-2"
 algolia:
   application_id: KMHLT5L375
   index_name: jpasholk
   search_only_api_key: f8ec0afe2cdf243fd346b125550d9037
-  
 
+# Build settings
 permalink: pretty
 paginate_path: "/blog/page:num/"
 paginate: 5
 excerpt_separator: "<!--more-->"
 to_top: true
 
-# Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
