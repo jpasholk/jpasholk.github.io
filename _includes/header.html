@@ -49,7 +49,7 @@
         <li>
           <a href="" uk-icon="icon: menu"></a>
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
-            <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-fade; delay: 300; repeat: true">
+            <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 300; repeat: true">
               {% for link in site.data.navigation.mobile %}
                 {% if link.url contains "http" %}
                   {% assign url = link.url %}
