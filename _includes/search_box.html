@@ -6,7 +6,7 @@
             <button class="uk-modal-close-default" type="button" uk-close></button>
 
             <div class="uk-modal-header">
-              <div id="search-searchbar"></div>
+              <div id="search-searchbar"> </div>
             </div>
 
             <div class="uk-modal-body" uk-overflow-auto>
@@ -15,7 +15,7 @@
 
                 <article class="uk-article uk-padding-large uk-padding-remove-left">
                   {% for post in site.posts %}
-                  <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
+                  <div>
                     <h4><a class="uk-link-text"href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 
                     <p class="uk-article-meta">

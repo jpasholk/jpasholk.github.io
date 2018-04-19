@@ -1,5 +1,5 @@
 <header>
-  <nav class="uk-navbar-container" uk-navbar>
+  <nav id="nav" class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
       <a href="{{"/" | relative_url}}" class="uk-navbar-item uk-logo">{{site.title}}</a>
     </div>
@@ -8,14 +8,14 @@
       <ul class="uk-navbar-nav">
 
         {% include search_box.html %}
-
         {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
           {% assign url = link.url %}
         {% else %}
           {% assign url = link.url | relative_url %}
         {% endif %}
-          <li><a href="{{ url }}">{{ link.title }}</a></li>
+
+          <li class="{% if item == page.url %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
         {% endfor %}
         {% for link in site.data.navigation.toggle %}
         {% if link.url contains "http" %}
@@ -63,6 +63,5 @@
         </li>
       </ul>
     </div>
-
   </nav>
 </header>

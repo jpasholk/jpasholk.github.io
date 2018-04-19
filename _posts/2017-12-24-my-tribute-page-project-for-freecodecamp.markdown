@@ -2,7 +2,7 @@
 layout: post
 title: "My Tribute Page Project for freeCodeCamp"
 date: "2017-12-24"
-tags: [webdev]
+tags: [freeCodeCamp, webdev]
 ---
 
 In [this](https://www.freecodecamp.org/challenges/build-a-tribute-page) freeCodeCamp challenge I needed to make a project that was a tribute page to someone.

@@ -3,12 +3,13 @@ layout: archive
 title: Post Archive
 ---
 
-<div id="tags" class="uk-section-xsmall" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 400">
-  <h2>Posts by tag</h2>
+<div id="Archive" class="uk-section uk-padding-remove-top" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 100">
+
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
     {% assign sortedTags = site_tags | split:',' | sort %}
 
-  <article class="uk-article">
+  <article class="uk-article uk-padding">
+    <h2>Posts by tag</h2>
     {% for tag in sortedTags %}
     <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
       <h3 id="{{tag | cgi_escape}}" class="uk-heading-line tag-name"><span>{{tag}}</span></h3>
