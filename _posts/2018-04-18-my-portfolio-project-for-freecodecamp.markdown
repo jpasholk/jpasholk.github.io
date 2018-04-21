@@ -107,13 +107,13 @@ UiKit uses responsive visibility classes to display or hide elements on differen
 <p data-height="354" data-theme-id="dark" data-slug-hash="rvVPpM" data-default-tab="html,result" data-user="jpasholk" data-embed-version="2" data-pen-title="UIKit Navbar Mobile" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/jpasholk/pen/rvVPpM/">UIKit Navbar Mobile</a> by Josh Pasholk (<a href="https://codepen.io/jpasholk">@jpasholk</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-That is about as in depth about my navbar as I’d like to get, for now, I ended up included some [Liquid](https://help.shopify.com/themes/liquid/basics){:target="_ blank"} logic to loop through links in a data file that I’ll go over in a later post. I plan on turning this into a theme, and I’ve seen a lot of themes do stuff like this to make it easier for people who aren’t great with HTML.
+That is about as in depth about my navbar as I’d like to get, for now. I ended up included some [Liquid](https://help.shopify.com/themes/liquid/basics){:target="_ blank"} logic to loop through links in a data file that I’ll go over in a later post. I plan on turning this into a theme, and I’ve seen a lot of themes do stuff like this to make it easier for people who aren’t great with HTML.
 
 ### Laying out the home page with sections
 
 ![Home layout - via Undraw](/img/posts/home-layout.png)
 
-Next, I needed to start laying out the wireframe of the homepage. UiKit has a component called Section which nicely lays everything out in a grid.
+Next, I needed to start laying out the wireframe of the homepage. UiKit has a component called `Section` which nicely lays everything out in a grid.
 
 From their documentation:
 
