@@ -23,7 +23,7 @@ The idea behind the blog was to be a project that I could finish quickly while l
 
 CloudCannon has a really great [tutorial series](https://learn.cloudcannon.com/){:target="_ blank"} on Jekyll. Check it out if you have some time, you'll learn something guaranteed.
 
-![Website Mockup - via Undraw](/img/posts/site-build.png)
+![Site-build - via Undraw](/img/posts/site-build.png)
 
 ## Time to build something
 
@@ -111,6 +111,8 @@ That is about as in depth about my navbar as I’d like to get, for now, I ended
 
 ### Laying out the home page with sections
 
+![Home layout - via Undraw](/img/posts/home-layout.png)
+
 Next, I needed to start laying out the wireframe of the homepage. UiKit has a component called Section which nicely lays everything out in a grid.
 
 From their documentation:
@@ -147,7 +149,7 @@ All in all, it was a fairly quick process, after a bit of troubleshooting I was 
 
 ## Thanks for reading
 
-![Website Mockup - via Undraw](/img/posts/designer.png)
+![Designer - via Undraw](/img/posts/designer.png)
 
 Thanks for stopping by!
 
