@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building my Portfolio Project for freeCodeCamp with Jekyll and UiKit"
+title: "Building my Portfolio Project with Jekyll and UiKit"
 date: "2018-04-18 07:29:19 -0700"
 tags: [freeCodeCamp, webdev, UiKit, portfolio-project, Jekyll, GitHub-Pages]
 ---
