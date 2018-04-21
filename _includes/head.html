@@ -60,7 +60,10 @@
   <link rel="alternate" href="https://es.example.com/" hreflang="{{ site.lang }}">
   <!-- https://validator.w3.org/feed/ -->
   <link href="{{ "/feed.xml" | relative_url }}" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)">
+  <!-- UiKit CSS -->
   <link rel="stylesheet" href="{{ "/css/uikit.min.css" | relative_url }}">
+  <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}" type="text/css">
 
   <script type="text/javascript" src="{{ "/js/uikit.min.js " | relative_url }}"></script>
   <script type="text/javascript" src="{{ "/js/uikit-icons.min.js " | relative_url }}"></script>
@@ -70,6 +73,12 @@
   <style>
     .intro-text {
       text-shadow: 1px 1px 2px black;
+    }
+    blockquote {
+      border-left: 5px solid #ccc;
+      background: #f9f9f9;
+      border-radius: 0px 4px 4px 0px;
+      padding: 5px 10px;
     }
   </style>
 </head>
