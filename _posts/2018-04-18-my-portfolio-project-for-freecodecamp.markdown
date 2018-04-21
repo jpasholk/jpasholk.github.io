@@ -25,11 +25,11 @@ The idea behind the blog was to be a project that I could finish quickly while l
 
 ## Time to build something
 
-I decided on using a framework to build my project rather than vanilla CSS. Somewhere in between browsing through web development subreddits and medium stories, I stumbled on a framework called [UiKit](https://getuikit.com/){:target="_ blank"} by [Yootheme](https://yootheme.com/){:target="_ blank"}. I really liked what I saw when reading through the documentation. It offers a lot of the same functionality as other frameworks but just looks better, in my opinion (of course).
+I decided on using a framework to build my project rather than vanilla CSS. Somewhere in between browsing through web development subreddits and medium stories, I stumbled on a framework called [UiKit](https://getuikit.com/){:target="_ blank"}. I really liked what I saw when reading through the documentation. It offers a lot of the same functionality as other frameworks but just looks better, in my opinion (of course).
 
 ### Starting from the top
 
-I started with the nav bar. I knew that I wanted to keep it simple, just a text logo on the left and a few pages of navigation on the right. Heading over into Navbar section of UiKit's documentation, it says;
+I started with the nav bar. I knew that I wanted to keep it simple, just a text logo on the left and a few pages of navigation on the right. Heading over into Navbar section of UiKit's documentation, it says:
 
 >The Navbar component consists of a navbar container, the navbar itself and one or more navigations.
 
@@ -57,9 +57,9 @@ I started with the nav bar. I knew that I wanted to keep it simple, just a text 
 </nav>
 {% endhighlight %}
 
-This is the basic skeleton I put together to start with. While a good start, it is not responsive. When viewed on mobile, the navigation links do scale with the site but they don't turn into any type of menu icon with a dropdown. I researched how to do this with UiKit and found that there really isn't an elegant solution like Bootstrap. The [documentation](https://getuikit.com/docs/offcanvas#nav-in-off-canvas){:target="_ blank"} recommends wrapping your nav in a dev with the class of `uk-offcanvas-content`. This is more of a sidebar style, which wouldn't fit with the design I was going for.
+This is the basic skeleton I put together to start with. While a good start, it is not responsive. When viewed on mobile, the navigation links do scale with the site but they don't turn into any type of menu icon with a dropdown. I researched how to do this with UiKit and found that there really isn't an elegant solution like Bootstrap. The [documentation](https://getuikit.com/docs/offcanvas#nav-in-off-canvas){:target="_ blank"} recommends using an Off Canvas component for mobile navigations. This is more of a sidebar style, which wouldn't fit with the design I was going for.
 
-I started thinking about it in another way after going over the examples in their documentation and experimenting a bit. I read somewhere along the line that a somewhat dirty implementation is to have two menus and show only the one you want with CSS, it's not perfect but it will get the job done.
+I started thinking about it in another way after going over the examples in their documentation and experimenting a bit. I read somewhere along the line that a dirty implementation is to have two menus and show only the one you want with CSS, it's not perfect but it will get the job done.
 
 UiKit uses responsive visibility classes to display or hide elements on different devices, so I essentially had to create two div's with the `uk-navbar-right` class, with the first also having the class `uk-visible@s` and the other `uk-hidden@s`. This makes it so the first one only shows on devices that are larger than `640px` with the other being hidden and vice versa.
 
@@ -153,6 +153,7 @@ Some things I'll cover are:
 
 * Looping through blog posts.
 * Looping through tags for a tag cloud.
+* Using data files for navigation.
 * Creating an archive page sorted by tag.
 * Integrating Algolia search. (Super cool!)
 * Adding an active state to nav items.
