@@ -7,5 +7,6 @@
     <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %}
     <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter" class="uk-margin-small-left">Follow me </span></a></li> {% endif %}
   </ul>
+  <hr>
   <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 </div>
