@@ -1,11 +1,23 @@
-<div class="pagination uk-text-center">
+<div class="pagination uk-link-muted">
   <br>
-  <ul class="uk-pagination">
+  <ul class="uk-pagination uk-child-width-expand">
     {% if paginator.previous_page %}
     <li><a href="{{ paginator.previous_page_path }}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li> {% else %}
-    <li><span uk-icon="home" class="uk-margin-small-right"></span></li> First Page {% endif %} {% if paginator.next_page %}
-    <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li> {% else %}
-    <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter" class="uk-margin-small-left">Follow me </span></a></li> {% endif %}
+    <li><span uk-icon="home" class="uk-margin-small-right"></span></li> First Page {% endif %}
+
+    <div class="uk-flex uk-flex-center">
+      <li>{{paginator.page}} of {{paginator.total_pages}}</li>
+    </div>
+
+    {% if paginator.next_page %}
+    <div class="uk-flex uk-flex-right">
+      <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+    </div>
+    {% else %}
+    <div class="uk-flex uk-flex-right uk-link-muted">
+      <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter" class="uk-margin-small-left">Follow me </span></a></li>
+    </div>
+    {% endif %}
   </ul>
-  <h5 class="uk-heading-line uk-text-muted"><span class="page_number">{{paginator.page}} of {{paginator.total_pages}}</span></h5>
+  <hr class="uk-divider-icon">
 </div>
