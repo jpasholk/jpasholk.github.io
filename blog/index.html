@@ -23,8 +23,10 @@ bigimg: /img/backpack.jpg
 
         <div class="content">
           {{ post.excerpt | strip_html }}
-          <br><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-          <br><hr>
+          <br><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a><br>
+          {% unless forloop.last %}
+          <hr>
+          {% endunless %}
         </div>
       </div>
       {% endfor %}
