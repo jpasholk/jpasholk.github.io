@@ -3,7 +3,7 @@
   <ul class="uk-pagination uk-child-width-expand">
     {% if paginator.previous_page %}
     <li><a href="{{ paginator.previous_page_path }}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li> {% else %}
-    <li><span uk-icon="home" class="uk-margin-small-right"></span></li> {% endif %}
+    <li><span uk-icon="home"></span></li> {% endif %}
 
     <div class="uk-flex uk-flex-center">
       <li>{{paginator.page}} of {{paginator.total_pages}}</li>
@@ -15,7 +15,7 @@
     </div>
     {% else %}
     <div class="uk-flex uk-flex-right uk-link-muted">
-      <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter" class="uk-margin-small-left">Follow me </span></a></li>
+      <li class="uk-margin-auto-left"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><span uk-icon="twitter">Follow me </span></a></li>
     </div>
     {% endif %}
   </ul>
