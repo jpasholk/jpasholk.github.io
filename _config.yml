@@ -40,7 +40,7 @@ algolia:
   search_only_api_key: f8ec0afe2cdf243fd346b125550d9037
 
 # Build settings
-permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 paginate_path: "/blog/page:num/"
 paginate: 5
 excerpt_separator: "<!--more-->"

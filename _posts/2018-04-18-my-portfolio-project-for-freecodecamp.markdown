@@ -5,6 +5,8 @@ date: "2018-04-18 07:29:19 -0700"
 tags: [freeCodeCamp, webdev, UiKit, portfolio-project, Jekyll, GitHub-Pages]
 ---
 
+## More often than not, less is more
+
 ![Website Mockup - via Undraw](/img/posts/web-mockup.png)
 
 When I first started my journey on freeCodeCamp, I was really looking forward to the [portfolio project](https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage){:target="_ blank"}. I had built a few of my own websites before using Wordpress.org, but it always left me wanting more.
