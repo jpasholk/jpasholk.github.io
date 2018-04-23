@@ -107,3 +107,5 @@ Another thing to mention is the `cgi_escape` filter you may have seen. It strips
 I hope you like this post!
 
 I will try and get a post out about once a week or so about my process of building this site and eventually turning it into a theme. There is a lot more to cover so stay tuned for more updates!
+
+*Credit: Cute images provided by [Undraw](https://undraw.co){:target="_ blank"}*{:class="uk-article-meta"}
