@@ -1,0 +1,3 @@
+[submodule "node_modules/uikit"]
+	path = node_modules/uikit
+	url = https://github.com/uikit/uikit
