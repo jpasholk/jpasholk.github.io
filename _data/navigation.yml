@@ -2,24 +2,24 @@
 # pages in order as they should show up.
 main:
   - title: "About"
-    url: /about
+    url: /about/
   - title: "Projects"
-    url: /index.html#Projects
+    url: /#Projects
 
 toggle:
   - title: "Blog"
-    url: /blog
+    url: /blog/
 
 subnav:
   - title: "Archives"
-    url: /archive
+    url: /archive/
 
 mobile:
   - title: "About"
-    url: /about
+    url: /about/
   - title: "Projects"
-    url: /index.html#Projects
+    url: /#Projects
   - title: "Blog"
-    url: /blog
+    url: /blog/
   - title: "Archive"
-    url: /archive
+    url: /archive/
