@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jpasholk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jpasholk.com
+  * I am jpasholk (https://keybase.io/jpasholk) on keybase.
+  * I have a public key ASB11aHcYFWko-kqp1paxx2KqHKkW4jNr3Vebewj9uqkFgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a7fe867775c1a85d4099efd95d0c960d555a1948a4a1024ca97e5099bffc6bdc0a",
+      "host": "keybase.io",
+      "kid": "012075d5a1dc6055a4a3e92aa75a5ac71d8aa872a45b88cdaf755e6dec23f6eaa4160a",
+      "uid": "4b26933d78e9117dde4722c8bba55f19",
+      "username": "jpasholk"
+    },
+    "merkle_root": {
+      "ctime": 1543704296,
+      "hash": "d5bc4abd8e9ceac0ee98de9c436cdf862e43d6d2188c1d65f1b562976251441aee40ca4f19b5f73884093a435dd12c5443863c5a7fb1e1965e867088a6b9ec02",
+      "hash_meta": "884ca3841273c4784fc7331f8f563996c8476957655483d0d8084a42abd23f97",
+      "seqno": 4038025
+    },
+    "service": {
+      "entropy": "J/XHCJqIAlF0dUYEbw4XiQiF",
+      "hostname": "jpasholk.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.10.1"
+  },
+  "ctime": 1543704379,
+  "expire_in": 504576000,
+  "prev": "9320049b8772f7400ae84e441b1c0df56eda32eff13dfc3b74ad6f66d1a36f4d",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgddWh3GBVpKPpKqdaWscdiqhypFuIza91Xm3sI/bqpBYKp3BheWxvYWTESpcCFMQgkyAEm4dy90AK6E5EGxwN9W7aMu/xPfw7dK1vZtGjb03EINCTcSmBagAWXLnz/QrUCzikwNAqOyMXhePMwJ+FCmYnAgHCo3NpZ8RA+MWqthhOz8/apHlq8UdzsROAPtZLEwYdH8wGt/wvNggt21cY8Dweb/rC9y524O7Yt5D1C10Jz5r1h80IaTAAA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB4+777y7qFO9J5rN2jsurOGD4JJ/bO5RiOLHne6+ErMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jpasholk
+
+==================================================================
